@@ -5,23 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login form</title>
-    <link rel="stylesheet" href="loginform.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 <body>
     <div id="box">
-        <h2>Login Form</h2>
-        <button>Login</button>
-        <button>Signup</button><br>
-        <!-- <form>
-            <input type="email" placeholder="Email Address"><br>
-            <input type="password" placeholder="Password"><br>
-            <p><a href="">Forgot password?</a> </p><br>
-            <button>Login</button><br>
-            <p>Not a memeber? <a href="">Signup now</a></p><br>
-        </form> -->
-        <input type="submit" value="Login form">
-        <input type="submit" value="Signup">
+        <h2>Login form</h2>
+        <form >
+
+            <div>
+                <span class="material-icons">person</span>
+                <input type="email" placeholder="Email or Phone">
+            </div>
+            <div>
+                <span class="material-icons">lock</span>
+                <input type="password" placeholder="Password"><br>
+                
+                <a href="">Forgot password?</a>
+            </div>
+            
+            <button>Login</button>
+        </form>
+        <p> Not a member? <a href="">Signup now</a></p>
     </div>
+
     
 </body>
 </html>
